@@ -19,8 +19,8 @@
   <div class="row h-100">
     <div class="col-md-5 yazikismi order-2 order-md-1 d-flex flex-column justify-content-center align-items-sm-center align-items-xs-center align-items-md-end">
       <span class="ad">Cem Çevik</span>
-      <span class="tanim">Developer, <b>Deutsch</b> <br> Lerner, Mehr als <br><b>2 Jahre</b> Erfahrung <br>in der <b>Webentwicklung</b>.</span>
-      <span class="bilgi"><u>Website kommt in Kürze</u></span>
+      <span class="tanim" id="yazi">Developer, <b>Deutsch</b> <br> Lerner, Mehr als <br><b>2 Jahre</b> Erfahrung <br>in der <b>Webentwicklung</b>.</span>
+      <span class="bilgi" id="soon"><u>Website kommt in Kürze</u></span>
     </div>
     <div class="col-md-1 d-none order-md-2 d-md-block"></div>
     <div class="col-md-6 fotokismi order-1 order-md-3 d-flex flex-column justify-content-center align-items-md-start align-items-xs-center align-items-sm-center" style="background-color:black;">
@@ -32,5 +32,21 @@
 <div class="col-md-1 d-none d-md-block"></div>
     </div>
   </div>
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+      var userLang = navigator.language || navigator.userLanguage;
+      if (userLang == "de") {
+
+      }
+      else if(userLang == "tr"){
+        document.getElementById('yazi').innerHTML = 'Developer, <b> German</b><br> learner, More than<br><b>2 years</b> experience <br>in <b>Web Development</b>.';
+        document.getElementById('soon').innerHTML = '<u>Website Coming Soon.</u>'
+      }
+      else {
+        document.getElementById('yazi').innerHTML = '<b>Yeni</b> projeler geliştirmeyi seven,<br><b>2 yıldan</b> daha fazla tecrubeye sahip <br>bir <b>Web Geliştiricisi</b>.';
+        document.getElementById('soon').innerHTML = '<u>Website yakında geliyor.</u>'
+      }
+  });
+  </script>
 </body>
 </html>
