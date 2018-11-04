@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:700');
+
+html, body{
+  height: 100%;
+
+}
+
+body{
+    background-color: black!important;
+}
+
+.foto{
+  width: 80%;
+  border-radius: 8px;
+}
+
+span{
+  text-align: right;
+  color: White;
+  font-family: 'Cabin', sans-serif;
+}
+
+.ad{
+  font-size: 5em;
+}
+b{
+  color: #ED2024;
+}
+.tanim{
+  font-size: 2em;
+}
+.fotokismi , .yazikismi{
+  height: 100%;
+}
+
+
+@media (max-width: 575.98px) {
+  span{
+  text-align: center;
+}
+.fotokismi{
+  height: 40%!important;
+}
+.foto{
+  align-self: center;
+    width: 60%;
+}
+.yazikismi{
+  height: 60%!important;
+}
+.ad{
+  font-size: 3em;
+}
+
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .ad{
+    font-size: 3em;
+  }
+  span{
+  text-align: center;
+}
+.foto{
+  align-self: center;
+  width: 60%;
+}
+.fotokismi{
+  height: 40%!important;
+}
+
+.yazikismi{
+  height: 60%!important;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .ad{
+  font-size: 4em!important;
+}
+
+.tanim{
+  font-size: 1em;
+}
+.foto{
+  width: 100%;
+}
+ }
+
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+   .ad{
+   font-size: 4em!important;
+ }
+
+ .tanim{
+   font-size: 2em;
+ }
+ .foto{
+   width: 100%;
+ }
+
+  }
+
+@media (min-width: 1200px) {  }
