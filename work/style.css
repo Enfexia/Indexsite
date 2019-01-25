@@ -17,6 +17,12 @@ h1{
   margin-bottom: 0vw;
 }
 
+.iletisim_logolar img{
+  height: 2vw;
+  transition: all 0.6s;
+  margin: 0 1vw 1vw 1vw;
+}
+
 .takip_header{
 background: rgba(0, 0, 0, 0.95);
 position: fixed;
@@ -552,4 +558,10 @@ left: -15px;
     display: block;
 
   }
+  .iletisim_logolar img{
+    height: 3vw;
+    transition: all 0.6s;
+    margin: 0 1vw 1vw 1vw;
+  }
+
 }

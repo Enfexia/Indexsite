@@ -16,6 +16,12 @@ html {
     color: inherit;
 }
 
+.iletisim_logolar img{
+  height: 2vw;
+  transition: all 0.6s;
+  margin: 0 1vw 1vw 1vw;
+}
+
 .proje-tarih a, .proje-tip a{
   text-decoration: none;
   color:#C8C9B9;
@@ -860,5 +866,11 @@ left: -15px;
 
   #mobil_buton_gizleme{
     z-index:25;background-color:black
+  }
+
+  .iletisim_logolar img{
+    height: 3vw;
+    transition: all 0.6s;
+    margin: 0 1vw 1vw 1vw;
   }
 }
