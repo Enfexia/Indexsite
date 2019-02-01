@@ -531,8 +531,6 @@ ul{
 }
 
 .foto{
-  pointer-events: none;
-user-select: none;
 transition: all 0.6s;
 }
 
